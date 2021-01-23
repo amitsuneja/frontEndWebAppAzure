@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./css/alldivs.css">
+  <title>blobStorage</title>
+</head>
+
+
+<html>  
+<body> 
+<div id="UgDiv" name="UgDiv" title="Div Element">  
+
+  	<div id="subDiv1"> 
+	       <form id="createContainerForm" method="POST" action="createContainerInBlobStorage.php">
+  			<label for="folderName">Container Name Create in Storage Account :</label><br>
+  			<input type="text" id="folderName" name="folderName"><br>
+                        <input type="hidden" name="SubmitCheck" value="sent">
+                        <input type="submit" value="Submit"><br>
+               </form>
+	
+	</div> 
+
+        <div id="subDiv2" name="subDiv2" title="Subdivision Div Element"> 
+        </div> 
+
+        <div class="fixed" >
+               <?php  include 'footer.php';?>     
+        </div>
+
+</div>
+</body>  
+</html> 
